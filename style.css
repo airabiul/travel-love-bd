@@ -1,80 +1,94 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-*{
-    font-family: 'Inter', sans-serif;
-    font-family: 'Mulish', sans-serif;
-}
-
-
-.nav-container{
-    display: flex;
-    max-width: 1250px;
-    min-height: 100px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.nav-image-container{
-    display: flex;
-}
-.nav-item-container{
-    
-}
-.nav-image{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.nav-image img{
- width: 48px;
-flex-shrink: 0;
-}
-.icon-bar{
-    display: none;
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
-.nav-item a{
-margin-right: 25px;
-text-decoration: none;
-color: var(--Dark-02, #424247);
-text-align: center;
-font-family: Mulish;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+/* header style start */
+.nav-container {
+  display: flex;
+  max-width: 1250px;
+  min-height: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-image-container {
+  display: flex;
+}
+.nav-item-container {
+}
+.nav-image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-image img {
+  width: 48px;
+  flex-shrink: 0;
+}
+.icon-bar {
+  display: none;
 }
 
-.nav-item .home{
-color: #FF5400;
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.nav-item a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.travel{
-color: #131318;
-font-family: Mulish;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+.nav-item .home {
+  color: #ff5400;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.lover{
-color: #FF5400;
-font-family: Mulish;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+.travel {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
+.lover {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+/* header style end */
+
+/* banner style start */
+.banner-section {
+  max-width: 1250px;
+  background-image: url("images/group-13.png");
+  min-height: 500px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  border-radius: 16px;
+  background: linear-gradient(to margin-top, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+}
+/* banner style end */
