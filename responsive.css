@@ -1,0 +1,15 @@
+
+@media screen and (max-width: 600px) {
+    .icon-bar{
+        display: block;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .nav-item a{
+        display: none;
+    }
+    .nav-image img{
+        width: 40px;
+        margin-left: 5px;
+       }
+}
