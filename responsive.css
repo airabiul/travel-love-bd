@@ -1,15 +1,26 @@
-
 @media screen and (max-width: 600px) {
-    .icon-bar{
-        display: block;
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    .nav-item a{
-        display: none;
-    }
-    .nav-image img{
-        width: 40px;
-        margin-left: 5px;
-       }
+  .icon-bar {
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .nav-item a {
+    display: none;
+  }
+  .nav-image img {
+    width: 40px;
+    margin-left: 5px;
+  }
+  .banner-icon {
+    flex-direction: column;
+  }
+  .banner-container {
+    width: 100%;
+  }
+  .banner-title{
+    font-size: 25px;
+  }
+  .banner-description{
+    font-size: 12px;
+  }
 }
