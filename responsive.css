@@ -17,79 +17,78 @@
   .banner-container {
     width: 100%;
   }
-  .banner-title{
+  .banner-title {
     font-size: 25px;
   }
-  .banner-description{
+  .banner-description {
     font-size: 12px;
   }
-  .tours-secton{
+  .tours-secton {
     flex-direction: column;
   }
-  .tours-section-title{
+  .tours-section-title {
     font-size: 20px;
     padding: 10px;
   }
-  .tours-section-text-ariya{
+  .tours-section-text-ariya {
     width: 100%;
     padding: 10px;
     font-size: 10px;
   }
-  .list-item li{
+  .list-item li {
     width: 250px;
   }
 
-  .tours-section-image-ariya img{
-   width: 250px;
-   height: 220px;
-   margin-left: 10px;
+  .tours-section-image-ariya img {
+    width: 250px;
+    height: 220px;
+    margin-left: 10px;
   }
-  .destination-title{
+  .destination-title {
     font-size: 25px;
     padding-left: 2px;
     padding-right: 2px;
   }
-  .destination-description{
+  .destination-description {
     width: 300px;
     padding-left: 5px;
     padding-right: 5px;
   }
-  .destination-img-gallary{
+  .destination-img-gallary {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows:12, 1fr;
+    grid-template-rows: 12, 1fr;
     gap: 15px;
   }
-  .Rectangle-5{
+  .Rectangle-5 {
     grid-column: 1 / span 6;
     grid-row: 1 / span 1;
   }
-  .Rectangle-8{
+  .Rectangle-8 {
     grid-column: 1 / span 6;
     grid-row: 2 / span 1;
   }
-  .Rectangle-6{
+  .Rectangle-6 {
     grid-column: 1 / span 6;
     grid-row: 3 / span 1;
   }
-  .Rectangle-7{
-    grid-column: 1 / span 6 ;
+  .Rectangle-7 {
+    grid-column: 1 / span 6;
     grid-row: 4 / span 1;
   }
-  .Rectangle-9{
-    grid-column: 1 / span 6 ;
+  .Rectangle-9 {
+    grid-column: 1 / span 6;
     grid-row: 5 / span 1;
-
   }
-  .Rectangle-11{
+  .Rectangle-11 {
     grid-column: 1 / span 6;
     grid-row: 6 / span 1;
   }
-  .Rectangle-10{
+  .Rectangle-10 {
     grid-column: 1 / span 6;
     grid-row: 7 / span 1;
   }
-  .choose-title{
+  .choose-title {
     font-size: 20px;
   }
   .choose-description {
@@ -97,52 +96,59 @@
   }
   .two-card-contant {
     display: flex;
-    flex-direction: column; 
-}
-.card-3-container{
+    flex-direction: column;
+  }
+  .card-3-container {
     width: 335px;
     height: 350px;
-}
-.card-1-description{
+  }
+  .card-1-description {
     width: 250px;
-}
-.card-1, .card-2, .card-3-container{
+  }
+  .card-1,
+  .card-2,
+  .card-3-container {
     width: 295px;
-   
-}
-.card-1, .card-2{
+  }
+  .card-1,
+  .card-2 {
     margin-left: 8px;
-}
-.card-1{
+  }
+  .card-1 {
     margin-bottom: 20px;
-}
-.card-1-title {
+  }
+  .card-1-title {
     margin-top: 5px;
     margin-bottom: 5px;
-}
+  }
 
-.newsletter-section {
- flex-direction: column;
-}
-.newsletter-section-image-ariya img{
-  width: 100%;
-  height: 100%;
-}
-.input-section input{
-  width: 100%;
-}
-.newsletter-section-text-ariya{
-  width: 100%;
-}
-.newsletter-section-text-ariya hr{
-  width: 100%;
-  margin-left: 0px;
-}
-.footer-describtion{
-  width: 100%;
-}
-.horizontal{
-  width: 90%;
-}
+  .newsletter-section {
+    flex-direction: column;
+  }
+  .newsletter-section-image-ariya img {
+    width: 100%;
+    height: 100%;
+  }
+  .input-section input {
+    width: 100%;
+  }
+  .newsletter-section-text-ariya {
+    width: 100%;
+  }
+  .newsletter-section-text-ariya hr {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .footer-describtion {
+    width: 100%;
+  }
+  .horizontal {
+    width: 90%;
+  }
 
+  .square {
+    display: none;
+    position: absolute;
+    left: 1140px;
+    top: 4230px;
 }
