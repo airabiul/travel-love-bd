@@ -233,7 +233,6 @@
 /* destination-section style start */
 .destination-section {
   max-width: 1250px;
-  border: 2px solid red;
   min-height: 300px;
   margin: 0 auto;
 }
@@ -248,6 +247,7 @@
   font-weight: 800;
   line-height: normal;
   margin-bottom: 20px;
+  margin-top: 70px;
 }
 .destination-description {
   width: 643px;
@@ -257,6 +257,7 @@
   font-weight: 400;
   line-height: 26px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .destination-img-gallary{
   display: grid;
