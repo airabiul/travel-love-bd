@@ -89,4 +89,38 @@
     grid-column: 1 / span 6;
     grid-row: 7 / span 1;
   }
+  .choose-title{
+    font-size: 20px;
+  }
+  .choose-description {
+    width: 300px;
+  }
+  .two-card-contant {
+    display: flex;
+    flex-direction: column; 
+}
+.card-3-container{
+    width: 335px;
+    height: 350px;
+}
+.card-1-description{
+    width: 250px;
+}
+.card-1, .card-2, .card-3-container{
+    width: 295px;
+   
+}
+.card-1, .card-2{
+    margin-left: 8px;
+}
+.card-1{
+    margin-bottom: 20px;
+}
+.card-1-title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+
+
 }
