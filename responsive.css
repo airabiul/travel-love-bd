@@ -23,4 +23,26 @@
   .banner-description{
     font-size: 12px;
   }
+  .tours-secton{
+    flex-direction: column;
+  }
+  .tours-section-title{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .tours-section-text-ariya{
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .list-item li{
+    width: 250px;
+  }
+
+  .tours-section-image-ariya img{
+   width: 250px;
+   height: 220px;
+   margin-left: 10px;
+
+  }
 }

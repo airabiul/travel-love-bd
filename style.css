@@ -172,3 +172,62 @@ background: #FF5400;
 }
 
 /* banner style end */
+
+/* tours section style start */
+.tours-secton{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1250px;
+  min-height: 300px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.tours-section-text-ariya{
+  width: 50%;
+  text-align:left;
+}
+.tours-section-title{
+color: #131318;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 35px;
+}
+.tours-section-description{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 30px;
+}
+.list-item li{
+width: 525px;
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-left: 25px;
+padding-bottom: 25px;
+}
+.tours-section-image-ariya{
+  width: 43%;
+  height: 100%;
+}
+.btn-primary{
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 10px 20px;
+border: 0;
+
+}
+/* tours section style end */
