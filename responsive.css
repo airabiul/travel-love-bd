@@ -146,9 +146,19 @@
     width: 90%;
   }
 
-  .square {
-    display: none;
-    position: absolute;
-    left: 1140px;
-    top: 4230px;
+    .square {
+      display: none;
+      width: 324px;
+      height: 120px;
+      transform: rotate(-19.628deg);
+      border-radius: 16px;
+      background: #ff5400;
+      flex-shrink: 0;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      left: 1140px;
+      top: 4230px;
+}
 }
