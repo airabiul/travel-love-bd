@@ -487,8 +487,11 @@
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  left: 1000px;
-  top: 4230px;
+  left: 1150px;
+  top: 4200px;
+  right: 50px;
+ ;
+ 
 }
 .travel-1 {
   color: #fff;
