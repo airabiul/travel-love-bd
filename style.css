@@ -133,38 +133,44 @@
   color: rgba(19, 19, 24, 0.5);
 }
 .when {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 120px;
   height: 35px;
   border-radius: 8px;
   background: #fff;
   border: 0;
-  text-align: left;
-  padding-left: 10px;
   color: rgba(19, 19, 24, 0.5);
-  font-size: 8px;
+  font-size: 12px;
+  gap: 50px;
 }
 .selecttype {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 120px;
   height: 35px;
   border-radius: 8px;
   background: #fff;
   border: 0;
-  text-align: left;
-  padding-left: 10px;
   color: rgba(19, 19, 24, 0.5);
-  font-size: 8px;
+  font-size: 12px;
+  gap: 20px;
 }
-.findnow {
+.search-i-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 120px;
   height: 35px;
   border-radius: 8px;
-  background: #fff;
+  color: #fff;
   border: 0;
-  text-align: left;
-  padding-left: 10px;
-  color: rgba(19, 19, 24, 0.5);
-  font-size: 8px;
+  text-align:center;
+  font-size: 12px;
   background: #ff5400;
+  gap: 10px;
 }
 
 /* banner style end */
@@ -343,7 +349,6 @@
   padding: 30px;
   width: 573px;
   height: 284px;
-
 }
 .card-1-image {
   width: 60px;
@@ -391,6 +396,13 @@
 /* choose section style end */
 
 /* perfect section start  */
+.tours-secton-perfect-section{
+  display: flex;
+  max-width: 1250px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .perfect-section li {
   color: #131318;
   font-size: 16px;
@@ -487,9 +499,10 @@
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  left: 1150px;
-  top: 4200px;
-  right: 50px;
+  left: 1130px;
+  top: 4215px;
+  right: auto;
+  bottom: auto
  ;
  
 }

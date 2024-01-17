@@ -4,18 +4,25 @@
     margin-top: 20px;
     margin-left: 15px;
   }
+ 
+  .nav-container{
+    margin: 0 5px;
+  }
   .nav-item a {
     display: none;
   }
   .nav-image img {
     width: 40px;
-    margin-left: 5px;
   }
   .banner-icon {
     flex-direction: column;
   }
+  .banner-section{
+    margin: 0 10px;
+  }
   .banner-container {
     width: 100%;
+    padding: 0 10px;
   }
   .banner-title {
     font-size: 25px;
@@ -25,6 +32,8 @@
   }
   .tours-secton {
     flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .tours-section-title {
     font-size: 20px;
@@ -59,6 +68,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 12, 1fr;
     gap: 15px;
+    margin: 0 10px;
   }
   .Rectangle-5 {
     grid-column: 1 / span 6;
@@ -88,77 +98,84 @@
     grid-column: 1 / span 6;
     grid-row: 7 / span 1;
   }
+ 
   .choose-title {
     font-size: 20px;
   }
   .choose-description {
-    width: 300px;
+    width: 290px;
   }
-  .two-card-contant {
-    display: flex;
+  .two-card-contant{
     flex-direction: column;
-  }
-  .card-3-container {
-    width: 335px;
-    height: 350px;
-  }
-  .card-1-description {
-    width: 250px;
-  }
-  .card-1,
-  .card-2,
-  .card-3-container {
-    width: 295px;
-  }
-  .card-1,
-  .card-2 {
-    margin-left: 8px;
-  }
-  .card-1 {
+    justify-content: center;
     margin-bottom: 20px;
   }
-  .card-1-title {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  .card-1-description {
+    width: 275px;
+  }
+  .card-1 {
+    padding: 10px;
+    height: 300px;
+    width: 275px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  .card-2{
+    padding:10px;
+    height: 300px;
+    width: 275px;
+    margin-left: 15px;
+  }
+  .card-3-container {
+    padding: 10px;
+    height: 300px;
+    width: 275px;
+  }
+   
+  
+
+ .tours-secton-perfect-section{
+  margin-left: 20px;
+  margin-right: 10px;
+  }
+  .perfect-section-image {
+    padding-right: 20px;
+    margin-left: 10px;
   }
 
   .newsletter-section {
     flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .newsletter-section-image-ariya img {
     width: 100%;
     height: 100%;
+    margin-top: 20px;
   }
   .input-section input {
     width: 100%;
+    padding-right: 15px;
   }
   .newsletter-section-text-ariya {
     width: 100%;
   }
   .newsletter-section-text-ariya hr {
-    width: 100%;
-    margin-left: 0px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .footer-section{
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .footer-describtion {
-    width: 100%;
+    width: 90%;
   }
   .horizontal {
     width: 90%;
   }
-
     .square {
       display: none;
-      width: 324px;
-      height: 120px;
-      transform: rotate(-19.628deg);
-      border-radius: 16px;
-      background: #ff5400;
-      flex-shrink: 0;
-      text-align: center;
-      justify-content: center;
-      flex-direction: column;
-      position: absolute;
-      left: 1140px;
-      top: 4230px;
 }
 }
